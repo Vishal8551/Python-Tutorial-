@@ -1,0 +1,55 @@
+#First Program
+print('hello world')
+
+#To print essay or poem
+print('''twinkle 
+twinkle 
+little 
+star''')
+
+##Code for import Audio file
+import IPython
+IPython.display.Audio("Give Audio file path")
+
+#To check class of the variable
+a="Python"
+print(type(a))
+
+#Operators in Python
+#Arithmatic operators
+a=20
+b=4
+print('The sum of a and b is',20+4)
+
+#Assignment operators in Python
+a+=2
+print(a)
+
+#Comparision operators in Python
+c=2>5
+print(c)
+
+#write a python program to add two numbers
+a=20
+b=15
+print("The sum of a and b is",a+b)
+
+#Input function
+#Average of two numbers enter by user
+j=input("Enter first number:")
+k=input("Enter second number:")
+j=int(j)
+k=int(k)
+avg=(j+k)/2
+print(avg)
+
+#Square of the numbers enter by user
+j=input("Enter number:")
+j=int(j)
+square=j*j
+print(square)
+
+#String slicing
+name='Abc'
+surname='Xyz'
+print(name+surname)
